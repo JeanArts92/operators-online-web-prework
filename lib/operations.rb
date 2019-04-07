@@ -1,9 +1,13 @@
-def unsafe?(speed = 50)
- if speed == speed > 40 || speed < 60
-   return "safe"
- else speed
-   end
- end
+def unsafe?(speed)
+
+   if speed >= 60 
+    true 
+  elsif speed <= 40 
+    true 
+  else 
+    false
+  end
+end	end
 
 
 
